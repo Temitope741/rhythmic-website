@@ -100,9 +100,9 @@ const Services = () => {
           <p className="text-gray-600 mb-6">
             Custom packages available for unique requirements. All sessions include professional editing and high-resolution images.
           </p>
-          {/* ✅ FIXED BUTTON - Navigate to Contact Page */}
+          {/* ✅ FIXED BUTTON - Go to the Contact section on the homepage */}
           <button 
-            onClick={() => navigate('/contact')}
+            onClick={() => navigate('/#contact')}
             className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors shadow-lg hover:shadow-xl"
           >
             Get Custom Quote

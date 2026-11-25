@@ -60,7 +60,7 @@ const Footer = () => {
               <button
                 onClick={() => scrollToSection('portfolio')}
                 className="block text-gray-400 hover:text-white transition-colors"
-              > Portfolio
+              > Rhythmic Archive
               </button>
               <Link
                 to="/services"
